@@ -19,4 +19,10 @@ class PostModel {
       body: json['body'],
     );
   }
+
+  @override
+  String toString() {
+    return "id: $id";
+  }
+
 }
